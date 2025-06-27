@@ -71,7 +71,7 @@
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            display: none;
+            display: flex;
             justify-content: center;
             align-items: center;
             font-size: 24px;
@@ -80,12 +80,6 @@
             backdrop-filter: blur(5px);
             border: 1px solid rgba(255, 255, 255, 0.05);
             transition: all 0.3s ease;
-        }
-        
-        @media (min-width: 768px) {
-            .nav-button {
-                display: flex;
-            }
         }
         
         .nav-button:hover {
@@ -1008,7 +1002,7 @@
         
         <!-- Slide 9: Agradecimento -->
         <div class="slide cursor-pointer" onclick="showSlide(0)">
-            <div class="slide-content flex items-center justify-center min-h-screen py-8 md:py-12" onclick="event.stopPropagation()">
+            <div class="slide-content flex items-center justify-center min-h-screen pt-20 md:pt-28 pb-8 md:pb-12" onclick="event.stopPropagation()">
                 <div class="text-center max-w-2xl mx-auto">
                     <!-- Logo centralizada -->
                     <div class="mb-8 md:mb-12">
